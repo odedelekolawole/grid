@@ -1,21 +1,24 @@
-html{
-    font-size: 15px;
-}
 
-body{
-    background-color: rgb(12, 198, 240);
-}
+@media screen and (min-width: 400px) {
 
-main{
-    font-size: 20px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 100px);
-    grid-template-areas: "a a b c"
-                         "a a d e"
-                         "g g f f"
-                         "h h f f"
-                         "i i i i";
+    html{
+        font-size: 15px;
+    }
+    
+    body{
+        background-color: rgb(12, 198, 240);
+    }
+    
+    main{
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 100px);
+        grid-template-areas:    "a a"
+                                "a a"
+                                "g g"
+                                "h h"
+                                "i i";
     gap: 10px 20px;
 }
 
@@ -29,7 +32,7 @@ section{
     margin-right: 0.5rem;
 
     margin: 10px auto; */
-
+    
 }
 
 
@@ -43,15 +46,15 @@ section:nth-of-type(1){
 }
 section:nth-of-type(2){
     grid-area: b;
-
+    
 }
 section:nth-of-type(3){
     grid-area: c;
-
+    
 }
 section:nth-of-type(4){
     grid-area: d;
-
+    
 }
 section:nth-of-type(5){
     grid-area: e;
@@ -59,7 +62,7 @@ section:nth-of-type(5){
 }
 section:nth-of-type(6){
     grid-area: f;
-
+    
 }
 section:nth-of-type(7){
     grid-area: g;
@@ -67,10 +70,94 @@ section:nth-of-type(7){
 }
 section:nth-of-type(8){
     grid-area: h;
-
+    
 }
 section:nth-of-type(9){
     grid-area: i;
     background-color: blueviolet;
+    
+}
+
+    
+}
+@media screen and (min-width: 920px) {
+    
+    html{
+        font-size: 15px;
+    }
+    
+    body{
+        background-color: rgb(12, 198, 240);
+    }
+    
+    main{
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 100px);
+        grid-template-areas:    "a a b c"
+                                "a a d e"
+                                "g g f f"
+                                "h h f f"
+                                "i i i i";
+    gap: 10px 20px;
+}
+
+section{
+    /* width: 50%; */
+    background-color: rgb(18, 15, 176);
+    /* height: 50px;
+    margin-top: 10px;
+    margin-bottom: 2em;
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+
+    margin: 10px auto; */
+    
+}
+
+
+
+
+section:nth-of-type(1){
+    grid-area: a;
+    background-color: rgb(226, 83, 17);
+
+
+}
+section:nth-of-type(2){
+    grid-area: b;
+    
+}
+section:nth-of-type(3){
+    grid-area: c;
+    
+}
+section:nth-of-type(4){
+    grid-area: d;
+    
+}
+section:nth-of-type(5){
+    grid-area: e;
+
+}
+section:nth-of-type(6){
+    grid-area: f;
+    
+}
+section:nth-of-type(7){
+    grid-area: g;
+
+}
+section:nth-of-type(8){
+    grid-area: h;
+    
+}
+section:nth-of-type(9){
+    grid-area: i;
+    background-color: blueviolet;
+    
+}
+
 
 }
