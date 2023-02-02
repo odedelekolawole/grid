@@ -1,0 +1,271 @@
+@media screen and (min-width: 360px) {
+
+        html{
+            font-size: 15px;
+        }
+        
+        body{
+            background-color: aqua;
+        }
+    main{
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, 100px);
+        grid-template-areas:    "a"
+                                "b"
+                                "c"
+                                "d"
+                                "e"
+                                "f"
+                                "g";
+        gap: 10px 20px;                        
+    }
+    
+    section{
+        background-color: rgb(42, 165, 52);
+    }
+    
+    
+    section:nth-of-type(1){
+        grid-area: a;
+    }
+    
+    
+    section:nth-of-type(2){
+        grid-area: b;
+    }
+    
+    
+    section:nth-last-of-type(3){
+        grid-area: c;
+        background-color: crimson;
+    }
+    
+    
+    section:nth-last-of-type(4){
+        grid-area: d;
+    }
+    
+    
+    section:nth-last-of-type(5){
+        grid-area: e;
+        background-color: crimson;
+    }
+    
+    
+    section:nth-last-of-type(6){
+        grid-area: f;
+        background-color: black;
+        
+    }
+    
+    
+    section:nth-last-of-type(7){
+        grid-area: g;
+        background-color: crimson;
+    }
+    }  
+
+
+@media screen and (min-width: 768px) {
+    html{
+        font-size: 15px;
+    }
+    
+    body{
+        background-color: aqua;
+    }
+main{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 100px);
+    grid-template-areas:    "a a"
+                            "b c"
+                            "d e"
+                            "f g";
+    gap: 10px 20px;                        
+}
+
+section{
+    background-color: rgb(42, 165, 52);
+}
+
+
+section:nth-of-type(1){
+    grid-area: a;
+}
+
+
+section:nth-of-type(2){
+    grid-area: b;
+}
+
+
+section:nth-last-of-type(3){
+    grid-area: c;
+    background-color: crimson;
+}
+
+
+section:nth-last-of-type(4){
+    grid-area: d;
+}
+
+
+section:nth-last-of-type(5){
+    grid-area: e;
+    background-color: crimson;
+}
+
+
+section:nth-last-of-type(6){
+    grid-area: f;
+    background-color: black;
+    
+}
+
+
+section:nth-last-of-type(7){
+    grid-area: g;
+    background-color: crimson;
+}
+}
+
+@media screen and (min-width: 920px) {
+    
+    html{
+        font-size: 15px;
+    }
+    
+    body{
+        background-color: aqua;
+    }
+main{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 100px);
+    grid-template-areas:    "a a a a a"
+                            "a a a a a"
+                            "b b c d d"
+                            "e e e d d"
+                            "f g g d d";
+    gap: 10px 20px;                        
+}
+
+section{
+    background-color: rgb(42, 165, 52);
+}
+
+
+section:nth-of-type(1){
+    grid-area: a;
+}
+
+
+section:nth-of-type(2){
+    grid-area: b;
+}
+
+
+section:nth-last-of-type(3){
+    grid-area: c;
+    background-color: crimson;
+}
+
+
+section:nth-last-of-type(4){
+    grid-area: d;
+}
+
+
+section:nth-last-of-type(5){
+    grid-area: e;
+    background-color: crimson;
+}
+
+
+section:nth-last-of-type(6){
+    grid-area: f;
+    background-color: black;
+    
+}
+
+
+section:nth-last-of-type(7){
+    grid-area: g;
+    background-color: crimson;
+}
+}
+
+@media print{
+    html{
+        font-size: 15px;
+    }
+    
+    body{
+        background-color: transparent;
+        font-size: 30px;
+    }
+main{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 100px);
+    grid-template-areas:    "a a a a a"
+                            "a a a a a"
+                            "b b c d d"
+                            "e e e d d"
+                            "f g g d d";
+    gap: 10px 20px;                        
+}
+
+section{
+    background-color: rgb(42, 165, 52);
+    border: 10px solid;
+    border-color: black;
+}
+
+
+section:nth-of-type(1){
+    grid-area: a;
+}
+
+
+section:nth-of-type(2){
+    grid-area: b;
+}
+
+
+section:nth-last-of-type(3){
+    grid-area: c;
+    background-color: crimson;
+}
+
+
+section:nth-last-of-type(4){
+    grid-area: d;
+}
+
+
+section:nth-last-of-type(5){
+    grid-area: e;
+    background-color: crimson;
+}
+
+
+section:nth-last-of-type(6){
+    grid-area: f;
+    background-color: black;
+    
+}
+
+
+section:nth-last-of-type(7){
+    grid-area: g;
+    background-color: crimson;
+}
+}
+
