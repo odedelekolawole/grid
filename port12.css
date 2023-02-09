@@ -1,0 +1,201 @@
+/* section {
+    height: 100vh;
+    border-bottom: 2px solid;
+}
+
+section:first-of-type{
+    background-color: rgba(0, 0, 0, 0.754);
+    background-image: url(images/nature.jpg);
+    background-blend-mode: overlay;
+    background-size: contain;
+
+}
+
+section nav{
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-content: center;
+    padding: 0 1em;   
+}
+
+nav > :first-child{
+    display: flex;
+    align-items: center;
+}
+
+nav > :last-child{
+    display: flex;
+    align-items: center;
+}
+
+nav header{
+    color: white;
+}
+
+nav a{
+    font-family: sans-serif;
+    font-size: 12px;
+    display: block;
+    font-size: 12px;
+    padding-right: 1em;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+nav a:last-of-type{
+    border: 2px solid #e55;
+    text-align: center;
+    padding: 1em 0.5em;
+    margin-left: 10px;
+    color: #e55;
+}
+
+.image{
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    /* padding-top: 250px; */
+    padding: 20vh 0;
+}
+
+.image img{
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-family: sans-serif;
+    
+}
+
+.image h2{
+    color: #e55;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.image p{
+    color: #fff;
+    font-family: serif;
+}
+
+
+
+
+/* section B */
+
+
+
+section:first-of-type{
+    background-color: rgba(0, 0, 0, 0.754);
+    background-image: url(https://images.unsplash.com/photo-1506260408121-e353d10b87c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGlsbHN8ZW58MHx8MHx8&w=1000&q=80);
+    background-blend-mode: overlay;
+}
+section nav{
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 1em;
+}
+
+nav > :first-child{
+    display: flex;
+    align-items: center;
+}
+
+nav > :last-child{
+    display: flex;
+    align-items: center;
+}
+nav header{
+    color: #e55;
+}
+nav header span{
+    color: white;
+}
+nav a{
+    font-family: sans-serif;
+    font-size: 12px;
+    display: block;
+    padding-right: 1em;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+nav a:last-of-type{
+    border: 2px solid #e55;
+    text-align: center;
+    padding: 1em .5em;
+    margin-left: 10px;
+    color: #e55;
+}
+
+.image{
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    align-content: center; */
+    padding: 20vh 0;
+}
+
+.image img{
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.image h2{
+    color: #e55;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.image p{
+    color: #fff;
+    font-family: serif;
+}
+
+section:nth-of-type(2){
+    font-size: 12px;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 300px;
+    gap: 3em;
+    color: white;
+    background-color: #123;
+}
+
+main section:nth-of-type(2) > div:first-of-type{
+    background-image: url(https://us.123rf.com/450wm/moremar/moremar2009/moremar200900025/moremar200900025.jpg?ver=6);
+    background-size: cover;
+}
+
+.profile{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid #e55;
+    padding: 1em;
+    margin-bottom: 10px;
+}
+.profile + input{
+    background-color: #e55;
+    border: none;
+    color: white;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+}
+
+.profile + input:hover{
+    box-shadow: 0 0 5px white;
+    background-color: white;
+    color: #e55;
+}
+ */

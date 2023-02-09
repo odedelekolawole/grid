@@ -88,6 +88,7 @@ section:nth-of-type(9){
     
     body{
         background-color: rgb(12, 198, 240);
+        background: url(../images/vacation\ 2.jpg);
     }
     
     main{
@@ -140,6 +141,7 @@ section:nth-of-type(4){
     grid-area: d;
     background: linear-gradient(black 35%, red 30%, red 65%, yellow 30%);
     
+    
 }
 section:nth-of-type(5){
     grid-area: e;
@@ -150,14 +152,23 @@ section:nth-of-type(6){
     grid-area: f;
     background-color: blanchedalmond;
     background: repeating-radial-gradient(red 10%, white 12%);
+    background: url(../images/s4.png) no-repeat;
+    /* background-color: rgba(44, 228, 204, 0.303);
+    background-blend-mode: overlay; */
+    
+    
+    
+
     
 }
 section:nth-of-type(7){
     grid-area: g;
+    
 
 }
 section:nth-of-type(8){
     grid-area: h;
+
     
 }
 section:nth-of-type(9){
