@@ -1,181 +1,205 @@
-
-@media screen and (min-width: 400px) {
-
-    html{
-        font-size: 15px;
-    }
-    
-    body{
-        background-color: rgb(12, 198, 240);
-    }
-    
-    main{
-        font-size: 20px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 100px);
-        grid-template-areas:    "a a"
-                                "a a"
-                                "g g"
-                                "h h"
-                                "i i";
-    gap: 10px 20px;
+section {
+    height: 100vh;
+    border-bottom: 3px solid red;
 }
 
-section{
-    /* width: 50%; */
-    background-color: rgb(18, 15, 176);
-    /* height: 50px;
-    margin-top: 10px;
-    margin-bottom: 2em;
-    margin-left: 2rem;
-    margin-right: 0.5rem;
-
-    margin: 10px auto; */
-    
+section:first-of-type{
+    background-color: rgba(0, 0, 0, 0.754);
+    background-image: url(images/nature.jpg);
+    background-blend-mode: overly;
 }
 
 
-
-
-section:nth-of-type(1){
-    grid-area: a;
-    background-color: rgb(226, 83, 17);
-
-
-}
-section:nth-of-type(2){
-    grid-area: b;
-    
-}
-section:nth-of-type(3){
-    grid-area: c;
-    
-}
-section:nth-of-type(4){
-    grid-area: d;
-    
-}
-section:nth-of-type(5){
-    grid-area: e;
-
-}
-section:nth-of-type(6){
-    grid-area: f;
-    
-}
-section:nth-of-type(7){
-    grid-area: g;
-
-}
-section:nth-of-type(8){
-    grid-area: h;
-    
-}
-section:nth-of-type(9){
-    grid-area: i;
-    background-color: blueviolet;
-    
+section nav {
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-content: centre;
+    padding: 0 1em;
 }
 
-    
-}
-@media screen and (min-width: 920px) {
-    
-    html{
-        font-size: 15px;
-    }
-    
-    body{
-        background-color: rgb(12, 198, 240);
-        background: url(../images/vacation\ 2.jpg);
-    }
-    
-    main{
-        font-size: 20px;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(5, 100px);
-        grid-template-areas:    "a a b c"
-                                "a a d e"
-                                "g g f f"
-                                "h h f f"
-                                "i i i i";
-    gap: 10px 20px;
+.bold  {
+    color: #e55;
+    font-weight: bold;
 }
 
-section{
-    /* width: 50%; */
-    background-color: rgb(18, 15, 176);
-    /* height: 50px;
-    margin-top: 10px;
-    margin-bottom: 2em;
-    margin-left: 2rem;
-    margin-right: 0.5rem;
+nav > :first-child {
+    display: flex;
+    align-items: center;
+}
 
-    margin: 10px auto; */
-    
+nav > :last-child {
+    display: flex;
+    align-items: center;
+}
+
+nav header {
+    color: white;
+    font-size: 18px;
+}
+
+nav a {
+    font-family: sans-serif;
+    font-size: 18px;
+    display: block;
+    padding-right: 1em;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+nav a:last-of-type {
+    border: 2px solid #e55;
+    text-align: center;
+    padding: .1em .5em;
+    margin-left: 10px;
+    color: #e55;
+}
+
+.image {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20vh 0; 
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 95px;
+    image-resolution: 200px;
+}
+
+.image h2 {
+    color: #e55;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    line-height: 2px;
+}
+
+.image p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 
 
 
-section:nth-of-type(1){
-    grid-area: a;
-    /* background-color: rgb(226, 83, 17); */
-    background: linear-gradient(90deg, white 50%, green 50%);
 
-}
-section:nth-of-type(2){
-    grid-area: b;
-    background-color: aqua;
-    background: radial-gradient(red 30%, white 15%);
-    
-}
-section:nth-of-type(3){
-    grid-area: c;
-    background: linear-gradient(90deg, blue 33%, white 33%, white 66%, red 33%);
-    
-}
-section:nth-of-type(4){
-    grid-area: d;
-    background: linear-gradient(black 35%, red 30%, red 65%, yellow 30%);
-    
-    
-}
-section:nth-of-type(5){
-    grid-area: e;
-    background: linear-gradient(90deg, green 33%, white 33%, white 66%, green 33%);
+/* SECTION 2 */
 
+section:nth-of-type(2) {
+    font-size: 18px;
+    padding: 5em;
+    padding-top: 15em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 300px;
+    gap: 3em;
+    color: white;
+    background-color: #123;
 }
-section:nth-of-type(6){
-    grid-area: f;
-    background-color: blanchedalmond;
-    background: repeating-radial-gradient(red 10%, white 12%);
-    background: url(../images/s4.png) no-repeat;
-    /* background-color: rgba(44, 228, 204, 0.303);
-    background-blend-mode: overlay; */
-    
-    
-    
 
-    
-}
-section:nth-of-type(7){
-    grid-area: g;
-    
-
-}
-section:nth-of-type(8){
-    grid-area: h;
-
-    
-}
-section:nth-of-type(9){
-    grid-area: i;
-    background-color: blueviolet;
+main section:nth-of-type(2) > div:first-of-type {
+    /* background-image: url(./images/my\ profile2\ pic.png); */
+    background-size: cover;
+    width: 300px;
+    height: 400px;
     
 }
 
+.profilepic img {
+    width: 450px;
+    height: 450px;
+    border-radius: 225px;
+    margin-top: 55px;
+    opacity: 50%;
+    
+}
+
+.chg {
+    border-bottom: 1px solid #e55;
+}
+
+section h2 {
+    color: white;
+}
+
+section h3 {
+    color: #e55;
 
 }
+
+.profile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid #e55;
+    padding: 1em;
+    margin-bottom: 10px;
+}
+
+.profile + input {
+    background-color: #e55;
+    border: none;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    margin-top: 2.5em;
+}
+
+.profile + input:hover {
+    box-shadow:rgba(0, 0, 5px, white);
+    background-color: white;
+    color: #e55;
+    
+}
+
+
+
+/* SECTION 3 */
+
+
+section:nth-of-type(3) {
+    background-color: #123;
+    color: white;
+    padding: 20em;
+    font-size: smaller;
+}
+
+h5 {
+    color: #e55;
+   
+}
+h1 {
+    color: white;
+}
+
+.high {
+    border-bottom: 1px solid #e55;
+    
+}
+
+
+
+.change {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 10em;
+    gap: 2em;
+    
+}
+
+
+.box {
+    border: 2px solid #e55;
+    text-align: left;
+    padding: .1em .5em;
+}
+
+
+
+
+
+
